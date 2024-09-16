@@ -24,7 +24,7 @@
     transform:translatez(-40px) scale(5);
 }
 .foreground{
-    transform:translatez(-20px) scale(3);
+    transform:translatez(-10px) scale(3);
 }
 .background_{
     transform: translateZ(40px) scale(5);
@@ -88,4 +88,21 @@ SECTION{
 }
 .bg3{
     background-image: url(sport-3.jpg);
+}
+.bg4{
+    background-image: url(lokesh.jpg);
+}
+.myself{
+    align-items: center;
+    justify-content: center;
+}
+.myselfll{
+    position: absolute;
+    padding: 0.5rem 0.2rem;
+    top: 60%;
+    left: 100%;
+    transform:translateX(-50%) translateX(-50%) ;
+    color:black;
+    font-size: 3.5rem;
+    font-weight: 600;
 }
