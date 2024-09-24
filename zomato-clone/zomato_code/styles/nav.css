@@ -2,7 +2,6 @@ header{
     width: 100%;
     position: absolute;
 }
-
 nav{
     width: 80%;
     display: flex;
@@ -24,13 +23,12 @@ nav .nav-left .nav-element {
     display: flex;
     align-items: center;
     gap: 5px;
-    cursor: pointer; /* This adds the cursor-pointer style */
+    cursor: pointer;
 }
 
 nav .nav-element a{
     color: white;
     font-size: 1.4rem;
-    cursor: pointer;
 }
 nav .nav-right{
     display: flex;
@@ -40,4 +38,7 @@ nav .nav-right .nav-element a{
     font-size: 1.8rem;
     font-weight: 200;
     padding: 0.8rem;
+}
+nav .nav-right .nav-element a:hover {
+    cursor: pointer;
 }

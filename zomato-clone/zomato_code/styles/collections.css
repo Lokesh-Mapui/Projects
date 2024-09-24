@@ -33,6 +33,7 @@
     height: 32rem;
     border-radius: 0.6rem;
     overflow: hidden;
+    cursor: pointer;
 }
 .image{
     height: 32rem;
