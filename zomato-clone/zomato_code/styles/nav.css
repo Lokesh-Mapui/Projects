@@ -22,8 +22,7 @@ nav .nav-left .nav-element {
     border-width: 0px 0px 0.2rem;
     display: flex;
     align-items: center;
-    gap: 5px;
-    cursor: pointer;
+    gap: 5px;;
 }
 
 nav .nav-element a{
@@ -39,6 +38,6 @@ nav .nav-right .nav-element a{
     font-weight: 200;
     padding: 0.8rem;
 }
-nav .nav-right .nav-element a:hover {
+/* nav .nav-right .nav-element a:hover {
     cursor: pointer;
-}
+} */

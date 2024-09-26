@@ -2,24 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/login-page.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body class="whole">
-    <div class="container">
+    <div id="login" class="container">
         <div class="login-box">
             <div class="front-part ">
                 <h2>Login</h2>
                 <div class="close-btn">×</div>
             </div>
-            <form action="Login"id="login-form">
+            <form action=""id="login-form">
                 <div class="phone-input">
-                    <img src="india.png">
+                    <img src="./assests/images/india.png">
                     <select>
                         <option value="+91">+91</option>
                     </select>
-                    <input type="text" id="phone" name="phone" placeholder="Phone">
+                    <div class="line"></div>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone">
                 </div>
                 <button type="submit" class="primary-button">Send One Time Password</button>
                 
@@ -30,11 +31,11 @@
                 </div>
                
                 <button class="email-btn">
-                    <img src="email.png" alt="Google Icon">
+                    <img src="./assests/images/email.png" alt="Google Icon">
                     Continue with Email
                 </button>
                 <button class="google-btn">
-                    <img src="google.png" alt="Google Icon">
+                    <img src="./assests/images/google.png" alt="Google Icon">
                     Sign in with Google
                 </button>
                 <hr class="same">

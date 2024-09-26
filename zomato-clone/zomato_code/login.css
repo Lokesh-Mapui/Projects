@@ -24,6 +24,7 @@
     left: 0;
     top: 0;
     background-color: rgba(0, 0, 0, 0.9);
+    display: hidden;
 }
 
 .active{
@@ -40,7 +41,6 @@
     box-shadow: rgba(28, 28, 28, 0.15) 0px 1.2rem 7rem;
     transition: transform 0.25s;
     background-color: white;
-
 }
 .front-part{
     display: flex;
